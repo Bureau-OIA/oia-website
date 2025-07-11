@@ -22,7 +22,7 @@ name = "Pages"
 
 [[main]]
 parent = "Pages"
-name = "Blog"
+name = "Articles"
 url = "/blog"
 
 [[main]]

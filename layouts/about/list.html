@@ -2,10 +2,44 @@
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
+        <div class="md:col-10 lg:col-8">
+          <div class="text-center mb-8">
+            <h2 class="h3 mb-6">{{ .Title }}</h2>
+          </div>
           <div class="content">{{ .Content }}</div>
+
+          <!-- Team Members Section -->
+          {{ if .Params.team_members }}
+          <div class="mt-16">
+            <h2 class="mb-8 text-h3 text-center">Meet Our Team</h2>
+            <div class="row">
+              {{ range .Params.team_members }}
+              <div class="md:col-6 lg:col-3 mb-8">
+                <div class="team-member text-center bg-light rounded-lg p-6">
+                  <div class="team-member-image mb-4">
+                    {{ if .image }}
+                    {{ partial "image" (dict "Src" .image "Context" $.Page "Alt" .name "Class" "rounded-lg mx-auto" "Size" "200x200") }}
+                    {{ else }}
+                    <div class="bg-gray-200 rounded-lg mx-auto flex items-center justify-center" style="width: 200px; height: 200px;">
+                      <i class="fas fa-user text-gray-400 text-6xl"></i>
+                    </div>
+                    {{ end }}
+                  </div>
+                  <h4 class="mb-2 text-h5">{{ .name }}</h4>
+                  <p class="text-primary mb-3 font-medium">{{ .position }}</p>
+                  <p class="text-sm text-text-dark mb-4">{{ .bio }}</p>
+                  {{ if .linkedin }}
+                  <a href="{{ .linkedin }}" target="_blank" rel="noopener" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
+                    <i class="fab fa-linkedin mr-2"></i>
+                    LinkedIn
+                  </a>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
     </div>
