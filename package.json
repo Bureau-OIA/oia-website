@@ -22,9 +22,14 @@
     "@tailwindcss/cli": "^4.1.6",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
+    "@tinacms/cli": "^1.10.0",
+    "@types/node": "^24.0.13",
     "prettier": "^3.5.3",
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.6"
+  },
+  "dependencies": {
+    "tinacms": "^2.8.0"
   }
 }
