@@ -1,29 +1,29 @@
 ---
 enable: true
-title: "What Users Are Saying About Hugoplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+title: "Client Success Stories"
+description: "See how our solutions have helped organizations achieve their goals and drive meaningful impact."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Sarah Chen"
+    designation: "Program Director"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "The OIA team delivered exceptional results, helping us streamline our operations and improve our community outreach programs significantly."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Michael Rodriguez"
+    designation: "Policy Analyst"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Working with OIA was transformative for our organization. Their expertise in policy development and implementation made all the difference."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Dr. Emily Watson"
+    designation: "Research Coordinator"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "OIA's analytical approach and attention to detail helped us make data-driven decisions that improved our program effectiveness."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "James Thompson"
+    designation: "Executive Director"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "The strategic insights and professional guidance from OIA have been invaluable in advancing our mission and achieving sustainable growth."
 
 # don't create a separate page
 build:
